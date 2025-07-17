@@ -1,0 +1,47 @@
+# Ignore node_modules and build folders
+node_modules/
+dist/
+build/
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Jest coverage
+coverage/
+
+# Vite cache
+.vite/
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.cache
+*.pid
+
+# Mac/Linux system files
+*.orig
+
+# Windows system files
+desktop.ini
+$RECYCLE.BIN/
+
+# Local test database
+data/db/
